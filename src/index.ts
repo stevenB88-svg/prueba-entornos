@@ -6,7 +6,7 @@ const PORT = 3000
 
 app.get('/', (_req, res)=> {
     // console.log('ambiente develop :)')
-    res.send('ambiente develop')
+    res.send('ambiente testing')
 })
 
 app.listen(PORT);

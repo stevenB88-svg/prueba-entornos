@@ -9,7 +9,7 @@ app.use(express_1.default.json());
 const PORT = 3000;
 app.get('/', (_req, res) => {
     // console.log('ambiente develop :)')
-    res.send('ambiente develop');
+    res.send('ambiente testing');
 });
 app.listen(PORT);
 // app.listen(PORT, () => {
