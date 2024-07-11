@@ -3,7 +3,7 @@ name: Deploy node JS on ECR
 on:
   push:
     branches:
-      - develop
+      
       - testing
 
 jobs:
